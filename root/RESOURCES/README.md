@@ -1,0 +1,1 @@
+This is where the resources will live for the project, such as icons, images, and other visual imporvements that the CSS style sheet(s) will feed off of. 
