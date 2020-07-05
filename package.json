@@ -1,0 +1,29 @@
+{
+  "name": "school_and_college_2",
+  "version": "1.0.0",
+  "description": "Repository for the 2020 TechPoint S.O.S challenge.",
+  "main": "root/index.ejs",
+  "scripts": {
+    "start": "node root/app.js",
+    "dev": "nodemon root/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apaxso/school_and_college_2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apaxso/school_and_college_2/issues"
+  },
+  "homepage": "https://github.com/apaxso/school_and_college_2#readme",
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.21",
+    "multer": "^1.4.2",
+    "multer-gridfs-storage": "^4.2.0"
+  }
+}
