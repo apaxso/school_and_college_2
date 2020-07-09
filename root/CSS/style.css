@@ -5,7 +5,7 @@
 }
 
 body{
-	background-image:url(ig.jpg);
+	background-image:url(../RESOURCES/ig.jpg);
 	background-size: cover;
 	background-position: center;
 	box-sizing: border-box;
