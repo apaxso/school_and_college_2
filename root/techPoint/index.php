@@ -1,3 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> TEST </title>
+<link rel="stylesheet" href="styles.css">
+</head>
+    
+<body>
+	<div class="navigation">
+    <a href="videos.php"> Videos </a>
+	</div>
+	<div class="interaction">
+    <form action="index.php" method="POST" enctype ="multipart/form-data">
+        <input type="file" name="file" />
+        <input type="submit" name="submit" value="Upload!" />
+    </form>
+    <div>
+
+</body>
+
 <?php
 
 
@@ -17,25 +38,6 @@ if(isset($_POST['submit'])){
 
 
 ?>
-
-
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title> TEST </title>
-</head>
-    
-<body>
-    <a href="videos.php"> Videos </a>
-    <form action="index.php" method="POST" enctype ="multipart/form-data">
-        <input type="file" name="file" />
-        <input type="submit" name="submit" value="Upload!" />
-    </form>
-          
-
-</body>
-
 
 
     

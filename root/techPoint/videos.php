@@ -10,10 +10,13 @@ $con=mysqli_connect("localhost","root","","upload");
 <head>
 <meta charset="utf-8">
 <title> TEST </title>
+<link rel="stylesheet" href="styles.css">
 </head>
     
 <body>
-
+	<div class="navigation">
+	<a href="index.php"> Home </a>
+	</div>
     
 </body>
 
