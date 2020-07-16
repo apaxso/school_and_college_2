@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body {
+background-color: lightblue;
+font-family: Helvetica;
+}
+
+#main {
+width: 80%;
+max-width: 950px;
+border: 1px gray solid;
+margin: auto;
+padding: 10px;
+background-color: white;
+border-radius: 10px;
+}
+
+
+label {
+display: block;
+}
+
+input {
+width: 30px;
+margin-left: 20px;
+}
+
+h2 {
+clear: both;
+padding-top: 20px;
+}
+
+button {
+width: 100px;
+margin-top: 20px;
+}
+
+</style>
+</head>
+<body>
+<div id="main"><!-- open main div -->
+<div id="header"><!-- open header div -->
+
+<h1>Quiz</h1>
+</div ><!-- close header div -->
+
+<form id="form1">
+
+<h3>Which of these U.S. states does NOT border Canada?</h3>
+<label for="var_string"><input type="radio" name="variable" value="0" id="var_string" />Minnesota</label></br>
+<label for="var_join"><input type="radio" name="variable" value="0" id="var_join" />Indiana</label></br>
+<label for="var_info"><input type="radio" name="variable" value="25" id="var_info" />Maine</label></br>
+<label for="var_condition"><input type="radio" name="variable" value="0" id="var_condition"/>Alaska</label></br>
+
+<h3>Which one of these cities is NOT in the Southern Hemisphere?</h3>
+<label for="sub_string"><input type="radio" name="sub" value="25" id="sub_string"/>Colombo</label></br>
+<label for="sub_join"><input type="radio" name="sub" value="0" id="sub_join"/>Brasilia</label></br>
+<label for="sub_info"><input type="radio" name="sub" value="0" id="sub_info" />Johannesburg</label></br>
+<label for="sub_condition"><input type="radio" name="sub" value="0" id="sub_condition" />Brisbane</label></br>
+
+<h3>Which of these countries was NOT a part of the Soviet Union?</h3>
+<label for="cat_string"><input type="radio" name="con" value="0" id="cat_string" />Georgia</label></br>
+<label for="cat_join"><input type="radio" name="con" value="25" id="cat_join" />Belarus</label></br>
+<label for="cat_info"><input type="radio" name="con" value="0" id="cat_info" />Ukraine</label></br>
+<label for="cat_condition"><input type="radio" name="con" value="0" id="cat_condition" />Poland</label></br>
+
+<h3>Which of these cities is NOT a national capital?</h3>
+<label for="if_string"><input type="radio" name="ifstate" value="0" id="if_string" />Cairo</label></br>
+<label for="if_join"><input type="radio" name="ifstate" value="0" id="if_join" />Prague</label></br>
+<label for="if_info"><input type="radio" name="ifstate" value="0" id="if_info" />Sydney </label></br>
+<label for="if_condition"><input type="radio" name="ifstate"  value="25" id="if_condition" />Bangkok</label></br>
+
+<button type="submit" value="Submit">Submit</button>
+
+</form>
+</div><!-- close main div -->
+</body>
+</html>
