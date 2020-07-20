@@ -1,0 +1,28 @@
+body {
+	background-color: white;
+}
+h1 {
+	color: blue;
+	a
+}
+p {
+	color: red;
+}
+
+a:link,a:visited {
+	color: green;
+}
+a:hover {
+	color: blue;
+}
+div.navigation {
+	background-color: powderblue;
+	font-family: monospace;
+	text-align: center;
+}
+div.interaction {
+	padding-left: 45vw;
+	padding-right: 50vw;
+	padding-top: 40vh;
+	padding-bottom: 50vh;
+}
